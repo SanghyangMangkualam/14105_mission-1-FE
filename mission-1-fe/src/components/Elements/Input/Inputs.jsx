@@ -1,4 +1,4 @@
-import eye from "C:/Users/MSI GAMING/Documents/Harisenin Bootcamp Local Folder/1405_mission 1 FE/mission-1-fe/src/assets/images/icons/eye.svg";
+import eye from "../../../assets/images/icons/eye.svg";
 const Input = (props) => {
     const { type, placeholder, name } = props;
     return (
