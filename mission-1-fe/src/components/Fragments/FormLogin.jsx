@@ -1,6 +1,7 @@
 import InputForm from "../Elements/Input";
 import Button from "..//Elements/Button/Button.jsx";
 import GoogleButton from "..//Elements/Button/GoogleButton.jsx";
+import { Link } from "react-router-dom";
 const FormLogin = () => {
     return (
         <form className="mt-5 space-y-4">
@@ -8,7 +9,7 @@ const FormLogin = () => {
           <InputForm label="Kata Sandi" name="kata sandi" type="password" placeholder="Masukkan Kata Sandi"></InputForm>
 
         <div className="flex justify-between text-sm mt-3 px-0">
-          <p className="text-gray-400">Belum punya akun? <a href="#" className="text-white underline">Daftar</a></p>
+          <p className="text-gray-400">Belum punya akun? <Link to="/register" className="text-white underline">Daftar</Link></p>
           <a href="#" className="text-white underline">Lupa kata sandi?</a>
         </div>
 

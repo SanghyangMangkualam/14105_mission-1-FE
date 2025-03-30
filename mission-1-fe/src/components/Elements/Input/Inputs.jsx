@@ -7,6 +7,7 @@ const Input = (props) => {
                 type={type} 
                 placeholder={placeholder} 
                 name={name}
+                id={name}
                 className="w-full h-12 rounded-xl bg-transparent border border-gray-600 px-4 text-white focus:outline-none pr-10"
             />
             {type === 'password' && (
